@@ -1,0 +1,25 @@
+.custom-tab{
+  width:100vw;
+  height:100rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  border-top: 2rpx solid #ddd;
+  color: #979797;
+  font-size: 36rpx;
+}
+.tab-item{
+  flex: 1;
+  text-align: center;
+  
+}
+.tab-item image{
+  width:100rpx;
+  height:80rpx;
+  margin-top:10rpx;
+}
+.selected-color{
+  color:black;
+}

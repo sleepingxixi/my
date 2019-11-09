@@ -1,0 +1,16 @@
+.swiper-circle{
+  display: flex;
+  justify-content: center;
+}
+.swiper-circle .circle-item{
+  width:20rpx;
+  height:20rpx;
+  margin:0 10rpx;
+  border:2rpx solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10rpx #ddd;
+}
+.swiper-circle .circle-current{
+  background-color: #fff;
+  opacity: 0.5;
+}

@@ -1,0 +1,23 @@
+<view class="def-view1">
+  <view class="def-circle is-loading1">
+  </view>
+</view>
+<!-- <view class="def-view2">
+  <view class="def-circle is-loading">
+  </view>
+  <view class="def-circle1">
+  </view>
+</view> -->
+<view class="def-view1">
+  <view class="def-circle3 is-loading2">
+  </view>
+</view>
+
+<!-- <view class="def-view1">
+  <view class="def-circle4">
+  </view>
+</view> -->
+
+<!-- <svg width="10" height="10">
+  <rect x="0" y="0" width="10" height="10" fill="blue" />
+</svg> -->

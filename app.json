@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/switch_button/switch_button",
+    "pages/animation_page/animation_page",
+    "pages/today_goal/index",
+    "pages/history_goal/index",
+    "pages/edit_goal/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "脑洞大开哦",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#979797",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/today_goal/index",
+        "text": "今日"
+      },
+      {
+        "pagePath": "pages/history_goal/index",
+        "text": "历史"
+      },
+      {
+        "pagePath": "pages/edit_goal/index",
+        "text": "编辑"
+      }
+    ]
+  },
+  "usingComponents": {
+    "CustomTabBar": "/custom-tab-bar/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

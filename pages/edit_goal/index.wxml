@@ -1,0 +1,12 @@
+<!--pages/edit_goal/index.wxml-->
+<form bindsubmit="formSubmit">
+<view>
+标题：
+<input class="input-title" value="{{title}}" bindinput="inputTitle"/>
+</view>
+<view>
+内容：
+<textarea class="input-content" value="{{content}}" bindinput="inputContent"></textarea>
+</view>
+<button formType="submit">完成</button>
+</form>

@@ -1,0 +1,84 @@
+{
+	"cloudfunctionRoot": "cloudfunction/",
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.1",
+	"appid": "wx860dba57fc072065",
+	"projectname": "myMiniPrograms",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "弹幕",
+					"pathName": "pages/barrage/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "switch_btn",
+					"pathName": "pages/switch_button/switch_button",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "animation_page",
+					"pathName": "pages/animation_page/animation_page",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "今日小目标",
+					"pathName": "pages/today_goal/index",
+					"query": "isNewUser=false",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "编辑",
+					"pathName": "pages/edit_goal/index",
+					"scene": null
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,9 @@
+<!-- 轮播滚动图的底部小圆圈 -->
+<!-- 需求父组件传入的信息包括：
+circleLen：圆圈的个数
+current：当前圆圈对应的序号 -->
+<view class="swiper-circle">
+<block wx:for="{{circleLen}}" wx:key="index">
+  <view class="circle-item {{index == current?'circle-current':''}}"></view>
+</block>
+</view>

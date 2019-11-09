@@ -1,0 +1,19 @@
+<view class="page-index">
+  <swiper class="page-swiper" >
+  <block wx:for="{{imagesList}}" wx:key="index">
+    <swiper-item>
+      <view class="swiper-item">
+      <image src="{{item.fileId}}"></image>
+      <!-- 最后一张图片显示按钮 start-->
+      <block wx:if="{{index == (imagesLen-1)}}">
+        <button bindtap="enterMainPage">进入</button>
+      </block>
+      <view class="circle-view">
+      <SwiperCircle circle-len="{{imagesLen}}" current="{{index}}"></SwiperCircle>
+      </view>
+      </view>
+    </swiper-item>
+  </block>
+  </swiper>
+  
+</view>

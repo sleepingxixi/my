@@ -1,0 +1,9 @@
+<view class="custom-tab">
+<block wx:for="{{list}}" wx:key="index">
+  <view wx:if="{{item.type == 'text'}}" class="tab-item {{item.selected?'selected-color':''}}" data-url="{{item.pagePath}}" bindtap="switchTab">{{item.text}}
+  </view>
+  <view wx:if="{{item.type == 'icon'}}" class="tab-item" data-url="{{item.pagePath}}" bindtap="switchTab">
+  <image src="{{item.iconUrl}}"></image>
+  </view>
+</block>
+</view>

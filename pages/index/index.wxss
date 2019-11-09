@@ -1,0 +1,29 @@
+.page-index{
+  width: 100vw;
+  height:100vh;
+  /* background-color: #ddd; */
+  position: relative;
+}
+.page-swiper{
+  width: 100vw;
+  height:100vh;
+}
+.swiper-item image{
+  width: 100vw;
+  height:100vh;
+}
+.swiper-item button{
+  position: absolute;
+  bottom: 200rpx;
+  left:150rpx;
+  width:450rpx;
+  height:100rpx;
+  box-shadow: 2rpx 0 5rpx #ddd;
+}
+.circle-view{
+  position: absolute;
+  width: 100vw;
+  height:50rpx;
+  bottom: 50rpx;
+  left: 0;
+}

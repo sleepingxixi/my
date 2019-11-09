@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "SwiperCircle":"/components/swiper_circle/index"
+  }
+}

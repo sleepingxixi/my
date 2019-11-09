@@ -1,0 +1,9 @@
+<!--pages/today_goal/index.wxml-->
+<text>{{textData}}</text>
+<block wx:for="{{showData}}" wx:key="item">
+  <view>
+    {{item.title}}
+  </view>
+</block>
+<!-- <button bindtap="addGoal">添加</button> -->
+<CustomTabBar />

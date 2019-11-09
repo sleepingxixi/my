@@ -1,0 +1,15 @@
+<view class="switch-list">
+  <switch />
+</view>
+
+<view class="switch-list">
+  <view class="fui-switch {{isClose?'':'test1'}}" type="checkbox" bindtap="testTap"></view>
+</view>
+
+<view class="switch-list">
+  <view class="entire_button" bindtap="testTap">
+    <text class="btn_text1">已完成</text>
+    <text class="btn_text2">未完成</text>
+    <view class="small_button {{isClose?'test3':'test2'}}">{{isClose?'已完成':'未完成'}}</view>
+  </view>
+</view>
